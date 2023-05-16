@@ -17,7 +17,7 @@ function extrairInformacoesLink(link) {
   return { domain, username, password };
 }
 
-const nomeDoArquivo = 'lista.txt';
+const nomeDoArquivo = 'listas.txt';
 const linksEncontrados = procurarLinksArquivo(nomeDoArquivo);
 
 linksEncontrados.forEach((link) => {
