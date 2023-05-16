@@ -26,5 +26,4 @@ linksEncontrados.forEach((link) => {
   console.log('Nome de usuário:', username);
   console.log('Senha:', password);
   console.log('\n');
-console.log('Possíveis portas: 80, 8080, 25461 e nada');
 console.log('resultados:',linksEncontrados.length);
