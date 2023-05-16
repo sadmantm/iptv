@@ -14,6 +14,9 @@ function extrairInformacoesLink(link) {
   const searchParams = parsedUrl.searchParams;
   const username = searchParams.get('username') || '';
   const password = searchParams.get('password') || '';
+if(username === 'meuplay.shop') {
+console.log('porta: 80');
+}
   return { domain, username, password };
 }
 
@@ -29,5 +32,3 @@ linksEncontrados.forEach((link) => {
 });
 
 console.log('Resultados:', linksEncontrados.length);
-
-console.log('Possíveis portas: 80, 8080, 25461 e nada');
