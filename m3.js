@@ -22,12 +22,9 @@ const linksEncontrados = procurarLinksArquivo(nomeDoArquivo);
 
 linksEncontrados.forEach((link) => {
   const { domain, username, password } = extrairInformacoesLink(link);
-  console.log('Link:', link + '\n');
-  console.log('Domínio:', domain);
+  console.log('URL:', domain);
   console.log('Nome de usuário:', username);
   console.log('Senha:', password);
   console.log('\n');
 });
-
-const numResultados = linksEncontrados.length;
-console.log('resultados:', numResultados);
+console.log('resultados:',linksEncontrados.length);
