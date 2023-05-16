@@ -10,12 +10,16 @@ function procurarLinksArquivo(nomeArquivo) {
 
 function extrairInformacoesLink(link) {
   const parsedUrl = new URL(link);
-  const domain = parsedUrl.origin;
+  let domain = parsedUrl.hostname;
+  if (parsedUrl.port) {
+    domain += ':' + parsedUrl.port;
+  }
   const searchParams = parsedUrl.searchParams;
   const username = searchParams.get('username') || '';
   const password = searchParams.get('password') || '';
   return { domain, username, password };
 }
+
 
 
 const nomeDoArquivo = 'listas.txt';
