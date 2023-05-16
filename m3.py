@@ -1,5 +1,5 @@
 import re
-
+from urllib.parse import urlparse, parse_qs
 def procurar_links_arquivo(nome_arquivo):
     # Padrão de expressão regular para procurar links
     padrao_link = r"http://[^\s'\"<>]+(?:=ts|plus)\b"
