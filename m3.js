@@ -3,13 +3,12 @@ const { URL } = require('url');
 
 function procurarLinksArquivo(nomeArquivo) {
   const conteudo = fs.readFileSync(nomeArquivo, 'utf8');
-  const padraoLink = /http:\/\/[^\s'"<>]+(?:\m3u|plus|ts)\b/g;
+  const padraoLink = /http:\/\/[^\s'"<>]+(?:m3u|plus|ts)\b/g;
   const linksEncontrados = conteudo.match(padraoLink) || [];
   return linksEncontrados;
 }
 
 function extrairInformacoesLink(link) {
-  function extrairInformacoesLink(link) {
   const parsedUrl = new URL(link);
   const domain = parsedUrl.origin;
   const searchParams = parsedUrl.searchParams;
@@ -17,6 +16,7 @@ function extrairInformacoesLink(link) {
   const password = searchParams.get('password') || '';
   return { domain, username, password };
 }
+
 const nomeDoArquivo = 'listas.txt';
 const linksEncontrados = procurarLinksArquivo(nomeDoArquivo);
 
@@ -26,6 +26,8 @@ linksEncontrados.forEach((link) => {
   console.log('Nome de usuário:', username);
   console.log('Senha:', password);
   console.log('\n');
-  });
-console.log('resultados:',linksEncontrados.length);
+});
+
+console.log('Resultados:', linksEncontrados.length);
+
 console.log('Possíveis portas: 80, 8080, 25461 e nada');
