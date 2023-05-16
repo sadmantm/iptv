@@ -3,7 +3,7 @@ const { URL } = require('url');
 
 function procurarLinksArquivo(nomeArquivo) {
   const conteudo = fs.readFileSync(nomeArquivo, 'utf8');
-  const padraoLink = /http:\/\/[^\s'"<>]+(?:\.m3u|plus|ts)\b/g;
+  const padraoLink = /http:\/\/[^\s'"<>]+(?:\m3u|plus|ts)\b/g;
   const linksEncontrados = conteudo.match(padraoLink) || [];
   return linksEncontrados;
 }
