@@ -20,4 +20,4 @@ links_encontrados = procurar_links_arquivo(nome_do_arquivo)
 
 # Imprimir os links encontrados
 for link in links_encontrados:
-    print(for int i == 0; if i < 1; int ++) + link + "\n\n")
+    print((for int i == 0; if i < 1; int ++ +) link + "\n\n")
