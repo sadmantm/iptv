@@ -3,7 +3,7 @@ const { URL } = require('url');
 
 function procurarLinksArquivo(nomeArquivo) {
   const conteudo = fs.readFileSync(nomeArquivo, 'utf8');
-  const padraoLink = /http:\/\/[^\s'"<>]+(?:=ts|plus)\b/g;
+  const padraoLink = /http:\/\/[^\s'"<>]+(?:=ts|plus|m3u)\b/g;
   const linksEncontrados = conteudo.match(padraoLink) || [];
   return linksEncontrados;
 }
@@ -22,7 +22,7 @@ const linksEncontrados = procurarLinksArquivo(nomeDoArquivo);
 
 linksEncontrados.forEach((link) => {
   const { domain, username, password } = extrairInformacoesLink(link);
-  console.log('Link:', link);
+  console.log('Link:', link + ("\n\n");
   console.log('Domínio:', domain);
   console.log('Nome de usuário:', username);
   console.log('Senha:', password);
@@ -30,4 +30,4 @@ linksEncontrados.forEach((link) => {
 });
 
 const numResultados = linksEncontrados.length;
-console.log('Número de resultados encontrados:', numResultados);
+console.log('resultados:', numResultados);
