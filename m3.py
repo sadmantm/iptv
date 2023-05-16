@@ -34,7 +34,7 @@ links_encontrados = procurar_links_arquivo(nome_do_arquivo)
 # Processar cada link e extrair as informações desejadas
 for link in links_encontrados:
     domain, username, password = extrair_informacoes_link(link)
-    print("Link:", link)
+    print("Link:", link + "\n")
     print("Domínio:", domain)
     print("Nome de usuário:", username)
     print("Senha:", password)
