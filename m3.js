@@ -8,17 +8,17 @@ function procurarLinksArquivo(nomeArquivo) {
   return linksEncontrados;
 }
 
+const urlParse = require('url-parse');
+
 function extrairInformacoesLink(link) {
-  const parsedUrl = new URL(link);
-  let domain = parsedUrl.hostname;
-  if (parsedUrl.port) {
-    domain += ':' + parsedUrl.port;
-  }
-  const searchParams = parsedUrl.searchParams;
-  const username = searchParams.get('username') || '';
-  const password = searchParams.get('password') || '';
+  const parsedUrl = urlParse(link);
+  const domain = parsedUrl.origin;
+  const searchParams = parsedUrl.query;
+  const username = searchParams.username || '';
+  const password = searchParams.password || '';
   return { domain, username, password };
 }
+
 
 
 
