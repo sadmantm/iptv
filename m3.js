@@ -10,7 +10,8 @@ function procurarLinksArquivo(nomeArquivo) {
 
 function extrairInformacoesLink(link) {
   const parsedUrl = new URL(link);
-  const domain = parsedUrl.hostname;
+const domain = parsedUrl.hostname + (parsedUrl.port && parsedUrl.port === '80' ? `:${parsedUrl.port}` : '');
+
   const searchParams = parsedUrl.searchParams;
   const username = searchParams.get('username') || '';
   const password = searchParams.get('password') || '';
