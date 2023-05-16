@@ -39,3 +39,5 @@ for link in links_encontrados:
     print("Nome de usuário:", username)
     print("Senha:", password)
     print("\n\n")  # Pular linha entre os resultados
+    num_resultados = len(links_encontrados)
+    print("resultados:", Num_resultados)
