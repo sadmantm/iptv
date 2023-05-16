@@ -25,7 +25,7 @@ linksEncontrados.forEach((link) => {
   console.log('URL:',domain);
   console.log('Nome de usuário:', username);
   console.log('Senha:', password);
-if(username === 'http://meuplay.shop') {
+if(domain === 'http://meuplay.shop') {
 console.log('porta: 80');}  
 console.log('\n');
 });
