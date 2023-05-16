@@ -9,29 +9,23 @@ function procurarLinksArquivo(nomeArquivo) {
 }
 
 function extrairInformacoesLink(link) {
+  function extrairInformacoesLink(link) {
   const parsedUrl = new URL(link);
-  const domain = parsedUrl.host;
-  const colonIndex = domain.indexOf(':');
-  const port = colonIndex !== -1 ? domain.substring(colonIndex + 1) : null;
+  const domain = parsedUrl.origin;
   const searchParams = parsedUrl.searchParams;
   const username = searchParams.get('username') || '';
   const password = searchParams.get('password') || '';
-  return { domain, port, username, password };
+  return { domain, username, password };
 }
-
-
-
-
-
-
 const nomeDoArquivo = 'listas.txt';
 const linksEncontrados = procurarLinksArquivo(nomeDoArquivo);
 
 linksEncontrados.forEach((link) => {
   const { domain, username, password } = extrairInformacoesLink(link);
-  console.log('URL:', domain);
+  console.log('URL:', "http://" + domain);
   console.log('Nome de usuário:', username);
   console.log('Senha:', password);
   console.log('\n');
+  console.log("Possíveis portas: 80, 8080, 25461 e nada")
 });
 console.log('resultados:',linksEncontrados.length);
