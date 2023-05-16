@@ -2,7 +2,7 @@ import re
 
 def procurar_links_arquivo(nome_arquivo):
     # Padrão de expressão regular para procurar links
-    padrao_link = r"http://[^?&]+(?:=ts|plus)\b"
+    padrao_link = r"http://[^\s'\"<>]+(?:=ts|plus)\b"
 
     # Abrir o arquivo para leitura
     with open(nome_arquivo, "r") as arquivo:
@@ -21,5 +21,3 @@ links_encontrados = procurar_links_arquivo(nome_do_arquivo)
 # Imprimir os links encontrados
 for link in links_encontrados:
     print(link)
-
-
