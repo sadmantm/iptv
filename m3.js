@@ -11,11 +11,14 @@ function procurarLinksArquivo(nomeArquivo) {
 function extrairInformacoesLink(link) {
   const parsedUrl = new URL(link);
   const domain = parsedUrl.host;
+  const colonIndex = domain.indexOf(':');
+  const port = colonIndex !== -1 ? domain.substring(colonIndex + 1) : null;
   const searchParams = parsedUrl.searchParams;
   const username = searchParams.get('username') || '';
   const password = searchParams.get('password') || '';
-  return { domain, username, password };
+  return { domain, port, username, password };
 }
+
 
 
 
