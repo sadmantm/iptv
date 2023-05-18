@@ -1,43 +1,72 @@
-http://postv.shop:80/get.php?username=12345678&password=87654321&type=m3u_plus&output=ts
-Real Url: postv.shop:80     Status: Active    Created: 17/03/2023 15:22:25     Expires: 08/05/2023 02:59:59    Active Connections: 1     Maximum Connections: 1     Formats: "m3u8","ts","rtmp"
+Host: http://dns.jslinkdns.xyz
+Nome de usuário: z4354655859z
+Senha: z535466589z
+Link: http://dns.jslinkdns.xyz:80/get.php?username=z4354655859z&password=z535466589z&type=m3u_plus&output=ts
+Status: Funcionando
 
-http://dns.jslinkdns.xyz:80/get.php?username=z4354655859z&password=z535466589z&type=m3u_plus&output=ts
-Real Url: dns.jslinkdns.xyz:80     Status: Active    Created: 03/03/2023 23:24:13     Expires: 04/03/2024 02:24:13    Active Connections: 1     Maximum Connections: 1     Formats: "m3u8","ts"
 
-http://dns.jslinkdns.xyz:80/get.php?username=paulo2010&password=edfisica2020&type=m3u_plus&output=ts
-Real Url: dns.jslinkdns.xyz:80     Status: Active    Created: 27/07/2022 22:00:58     Expires: 25/05/2023 15:50:27    Active Connections: 1     Maximum Connections: 1     Formats: "m3u8","ts"
+Host: http://dns.jslinkdns.xyz
+Nome de usuário: paulo2010
+Senha: edfisica2020
+Link: http://dns.jslinkdns.xyz:80/get.php?username=paulo2010&password=edfisica2020&type=m3u_plus&output=ts
+Status: Funcionando
 
-http://dns.jslinkdns.xyz:80/get.php?username=Ana799868&password=Advo898689y6&type=m3u_plus&output=ts
-Real Url: dns.jslinkdns.xyz:80     Status: Active    Created: 09/03/2022 21:56:56     Expires: 26/06/2023 19:23:53    Active Connections: 2     Maximum Connections: 1     Formats: "m3u8","ts"
 
-http://dns.jslinkdns.xyz:80/get.php?username=Carlos79&password=79carlos@@@&type=m3u_plus&output=ts
-Real Url: dns.jslinkdns.xyz:80     Status: Active    Created: 09/03/2022 21:56:56     Expires: 10/05/2023 12:13:21    Active Connections: 0     Maximum Connections: 1     Formats: "m3u8","ts"
+Host: http://dns.jslinkdns.xyz
+Nome de usuário: Ana799868
+Senha: Advo898689y6
+Link: http://dns.jslinkdns.xyz:80/get.php?username=Ana799868&password=Advo898689y6&type=m3u_plus&output=ts
+Status: Funcionando
 
-http://dns.jslinkdns.xyz:80/get.php?username=ueslei7133&password=027999007133&type=m3u_plus&output=ts
-Real Url: dns.jslinkdns.xyz:80     Status: Active    Created: 01/03/2022 19:49:03     Expires: 05/06/2023 10:51:38    Active Connections: 0     Maximum Connections: 1     Formats: "m3u8","ts"
 
-http://dns.jslinkdns.xyz:80/get.php?username=Fla2022PNVP10&password=FlaPNE102022A&type=m3u_plus&output=ts
-Real Url: dns.jslinkdns.xyz:80     Status: Active    Created: 06/03/2022 23:26:06     Expires: 17/05/2023 12:22:41    Active Connections: 0     Maximum Connections: 1     Formats: "m3u8","ts"
+Host: http://dns.jslinkdns.xyz
+Nome de usuário: Carlos79
+Senha: 79carlos@@@
+Link: http://dns.jslinkdns.xyz:80/get.php?username=Carlos79&password=79carlos@@@&type=m3u_plus&output=ts
+Status: Funcionando
 
-http://dns.jslinkdns.xyz:80/get.php?username=9531456721&password=1463258794&type=m3u_plus&output=ts
-Real Url: dns.jslinkdns.xyz:80     Status: Active    Created: 08/03/2022 18:17:31     Expires: 08/06/2023 18:17:31    Active Connections: 0     Maximum Connections: 1     Formats: "m3u8","ts"
 
-http://cdn.tyuj.xyz:80/get.php?username=Lu01Wen&password=06lui01Wen&type=m3u_plus&output=ts
-Real Url: cdn.rtyh.xyz:80     Status: Active    Created: 16/04/2023 21:27:51     Expires: 16/05/2023 21:27:51    Active Connections: 0     Maximum Connections: 1     Formats: "m3u8","ts"
+Host: http://dns.jslinkdns.xyz
+Nome de usuário: ueslei7133
+Senha: 027999007133
+Link: http://dns.jslinkdns.xyz:80/get.php?username=ueslei7133&password=027999007133&type=m3u_plus&output=ts
+Status: Funcionando
 
-http://cdn.tyuj.xyz:80/get.php?username=eduardo836&password=sabi93643&type=m3u_plus&output=ts
-Real Url: cdn.rtyh.xyz:80     Status: Active    Created: 28/12/2020 17:36:42     Expires: 04/07/2023 14:15:36    Active Connections: 1     Maximum Connections: 1     Formats: "m3u8","ts","rtmp"
 
-http://cdn.tyuj.xyz:80/get.php?username=Marisa4739&password=17997354935x&type=m3u_plus&output=ts
-Real Url: cdn.rtyh.xyz:80     Status: Active    Created: 11/09/2022 20:28:25     Expires: 24/05/2023 17:54:11    Active Connections: 1     Maximum Connections: 1     Formats: "m3u8","ts"
+Host: http://dns.jslinkdns.xyz
+Nome de usuário: Fla2022PNVP10
+Senha: FlaPNE102022A
+Link: http://dns.jslinkdns.xyz:80/get.php?username=Fla2022PNVP10&password=FlaPNE102022A&type=m3u_plus&output=ts
+Status: Funcionando
 
-http://cdn.tyuj.xyz:80/get.php?username=ug6v6mty&password=3eaj35gh&type=m3u_plus&output=ts
-Real Url: cdn.rtyh.xyz:80     Status: Active    Created: 17/02/2021 21:36:02     Expires: 11/05/2023 01:25:30    Active Connections: 0     Maximum Connections: 1     Formats: "m3u8","ts"
 
-http://cdn.tyuj.xyz:80/get.php?username=11969969699&password=br11969969699&type=m3u_plus&output=ts
-Real Url: cdn.rtyh.xyz:80     Status: Active    Created: 24/06/2020 15:27:41     Expires: 03/06/2023 18:05:49    Active Connections: 1     Maximum Connections: 1     Formats: "m3u8","ts","rtmp"
+Host: http://dns.jslinkdns.xyz
+Nome de usuário: 9531456721
+Senha: 1463258794
+Link: http://dns.jslinkdns.xyz:80/get.php?username=9531456721&password=1463258794&type=m3u_plus&output=ts
+Status: Funcionando
 
-http://cdn.tyuj.xyz:80/get.php?username=Nildozxcty&password=mjkyuio147&type=m3u_plus&output=ts
-Real Url: cdn.rtyh.xyz:80     Status: Active    Created: 29/08/2022 22:55:02     Expires: 01/06/2023 09:47:35    Active Connections: 2     Maximum Connections: 1     Formats: "m3u8","ts"
 
-Finished
+Host: http://cdn.tyuj.xyz
+Nome de usuário: Lu01Wen
+Senha: 06lui01Wen
+Link: http://cdn.tyuj.xyz:80/get.php?username=Lu01Wen&password=06lui01Wen&type=m3u_plus&output=ts
+Status: Funcionando
+
+
+
+Host: http://cdn.tyuj.xyz
+Nome de usuário: Marisa4739
+Senha: 17997354935x
+Link: http://cdn.tyuj.xyz:80/get.php?username=Marisa4739&password=17997354935x&type=m3u_plus&output=ts
+Status: Funcionando
+
+
+
+
+
+Host: http://cdn.tyuj.xyz
+Nome de usuário: 11969969699
+Senha: br11969969699
+Link: http://cdn.tyuj.xyz:80/get.php?username=11969969699&password=br11969969699&type=m3u_plus&output=ts
+Status: Funcionando
