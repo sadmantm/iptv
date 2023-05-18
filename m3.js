@@ -5,7 +5,7 @@ const iptv = require('iptv-playlist-parser');
 
 function procurarLinksArquivo(nomeArquivo) {
   const conteudo = fs.readFileSync(nomeArquivo, 'utf8');
-  const padraoLink = /http:\/\/[^\s'"<>]+(?:m3u|plus|ts)\b/g;
+  const padraoLink = /http:\/\/[^\s'"<>]+(?:m3u|plus|ts|xyz)\b/g;
   const linksEncontrados = conteudo.match(padraoLink) || [];
   return linksEncontrados;
 }
