@@ -33,7 +33,7 @@ async function verificarLinkIPTV(link) {
   }
 }
 
-const nomeDoArquivo = 'listas.txt';
+const nomeDoArquivo = 'tv.txt';
 const linksEncontrados = procurarLinksArquivo(nomeDoArquivo);
 (async () => {
   for (const link of linksEncontrados) {
